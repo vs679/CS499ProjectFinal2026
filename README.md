@@ -79,6 +79,21 @@ The dataset is not included in this repository. Download it from Kaggle and plac
 
 ## Installation
 
+### Dataset Setup
+
+This project uses the **APTOS 2019 Blindness Detection** dataset from Kaggle.
+
+#### 1. Create a Kaggle account
+Go to Kaggle and create an account if you do not already have one.
+
+#### 2. Download the dataset manually
+Open the APTOS 2019 Blindness Detection dataset page on Kaggle and download the dataset files.
+Link: https://www.kaggle.com/datasets/mariaherrerot/aptos2019
+
+Dataset Name:
+
+```text
+aptos2019-blindness-detection
 ### 1. Clone the repository
 
 ```bash
