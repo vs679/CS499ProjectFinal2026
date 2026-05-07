@@ -5,7 +5,7 @@ Final Project for CS499/599 Spring 2026
 
 ## Overview
 
-This project builds a Convolutional Neural Network (CNN) to detect and classify diabetic retinopathy from retinal fundus images. The goal is to automate early diagnosis and assist medical professionals in identifying disease severity.
+This project builds a Convolutional Neural Network (CNN) to detect and classify diabetic retinopathy (DR) from retinal fundus images. The goal is to automate early diagnosis and assist medical professionals in identifying disease severity.
 
 ---
 
@@ -68,11 +68,16 @@ The dataset is not included in this repository. Download it from Kaggle and plac
 
 ## Results
 
-* Accuracy: 
+| Model/Metrics | Accuracy | Precision | Recall | F1 Score |
+| ------------- | -------: | --------: | -----: | -------: |
+| ResNet50      |     0.62 |      0.72 |   0.67 |     0.68 |
+| EfficientNet  |     0.62 |      0.76 |   0.67 |     0.67 |
+| Baseline CNN  |    0.102 |      0.02 |   0.10 |     0.02 |
+
 * Observations:
 
-  * Model performs well on majority classes
-  * Struggles with class imbalance
+  * Transfer learning models performed better than Baseline CNN
+  * Overall struggles with class imbalance
   * Some overfitting observed
 
 ---
